@@ -1,8 +1,11 @@
 # Deja
 
+![Deja Picture](./assets/deja.png)
+[Video Demo](https://www.youtube.com/watch?v=8sKslLUpeCs)
+
 ## What is deja?
 
-Deja is a chrome extension that lets you create "replays" from live streams (HLS). While watching a stream, you can use the Deja chrome extension to start a new "session" for that stream. At any point after, using that session you can create a replay of the last ~30 seconds of the stream either through the chrome extension, or also by pulling up the Deja web application for that session (which means this is possible from a browser window or even a mobile device).
+Deja is a chrome extension ([link](https://chrome.google.com/webstore/detail/deja-extension/fadmeenbclggopfangnbjmfbleffocnb?hl=en-US) that lets you create "replays" from live streams (HLS). While watching a stream, you can use the Deja chrome extension to start a new "session" for that stream. At any point after, using that session you can create a replay of the last ~30 seconds of the stream either through the chrome extension, or also by pulling up the Deja web application for that session (which means this is possible from a browser window or even a mobile device).
 
 ## Why?
 
