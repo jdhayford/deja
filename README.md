@@ -15,7 +15,7 @@ My ideal use of deja is starting the deja session on my laptop browser, hooking 
 
 ## How does it work?
 
-[Insert Chart Here]
+![Deja Diagram](./assets/stream-diagram.png)
 
 There are 3 main parts to deja:
 
