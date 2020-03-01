@@ -1,7 +1,7 @@
 # Deja
 
 ![Deja Picture](./assets/deja.png)
-[Video Demo](https://www.youtube.com/watch?v=8sKslLUpeCs)
+### [Video Demo](https://www.youtube.com/watch?v=8sKslLUpeCs)
 
 ## What is deja?
 
