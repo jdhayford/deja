@@ -21,10 +21,10 @@ There are 3 main parts to deja:
 
 - [Chrome Extension](./extension): A simple Chrome extension with a lightweight React UI to allow users to begin sessions and request replays. Upon starting a session, the chrome extension begins observing network activity (it is only able to see the metadata i.e. request url, headers, etc). It starts a session with the API and begins reporting these requests so that, when requested, the API can construct a replay from the stream. Note: It was important in designing the architecture that the extension was built as un-invasive as possible, i.e. it would have been easier to simply override the XHR requests and evaluate the response bodies.
 
-![Picture](./assets/extension.png)
+<img src="./assets/extension.png" width="200">
 
 - [API](./api): Written in Go, this API is used to create sessions, record stream requests and build replays. When a replay is requested, it evaluates the past X `.m3u8` manifests for the stream, requests the segments and uses FFMPEG to construct a replay. This replay is stored in S3 and a link is sent to clients.
 
 - [Web App](./frontend): A straightforward (somewhat mobile friendly) React web app that when given a session name, allows you to view the replays made so far as well as create new ones.
 
-![Picture](./assets/web.png)
+<img src="./assets/web.png" width="500">
