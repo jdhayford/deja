@@ -1,4 +1,4 @@
-# Deja
+![Deja](./extension/src/img/deja-logo.svg)
 
 ![Deja Picture](./assets/deja.png)
 ### [Video Demo](https://www.youtube.com/watch?v=8sKslLUpeCs)
